@@ -5,12 +5,13 @@ import Home from "../pages/Home/Home.jsx";
 import Products from "../pages/Products/Products.jsx";
 import ProductDetails from "../pages/ProductDetails/ProductDetails.jsx";
 import Cart from "../pages/Cart/Cart.jsx";
+import NotFound from "../pages/NotFound/NotFound.jsx";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
-
+    errorElement: <NotFound/>,
     children: [
         {
             index: true,

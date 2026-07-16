@@ -13,7 +13,7 @@ import { HeroSlidesData } from "../../Data/HeroSlidesData";
 
 const Hero = () => {
   return (
-    <section className="bg-[#050816] ">
+    <section className="bg-[#050816] max-h-1/3 ">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation

@@ -25,7 +25,7 @@ const Navbar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <a className="btn  hover:bg-blue-500 btn-ghost text-xl">VeLoUrA MART</a>
+                <Link to='/' className="btn  hover:bg-blue-500 btn-ghost text-xl">VeLoUrA MART</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
