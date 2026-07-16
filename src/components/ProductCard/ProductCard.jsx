@@ -1,8 +1,11 @@
 import { FaStar, FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router";
+import useCart from "../../hook/useCart";
 
 const ProductCard = ({ product }) => {
-  const { id,name,category,image,price,oldPrice,rating, } = product;
+  const { id,name,category,image,price,rating } = product;
+
+  const {addToCart} = useCart();
 
   return (
     <div className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
@@ -17,7 +20,7 @@ const ProductCard = ({ product }) => {
 
       </div>
 
-      {/* Content */}
+     
       <div className="space-y-4 p-5">
 
         {/* Category */}
@@ -54,7 +57,9 @@ const ProductCard = ({ product }) => {
             View Details
           </Link>
 
-          <button className="flex items-center justify-center rounded-xl bg-blue-600 px-5 text-white transition hover:bg-blue-700">
+          <button
+            onClick={()=> addToCart(product)}
+           className="flex items-center justify-center rounded-xl bg-blue-600 px-5 text-white transition hover:bg-blue-700">
             <FaShoppingCart size={18} />
           </button>
 

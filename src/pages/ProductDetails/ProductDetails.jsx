@@ -1,9 +1,12 @@
 import { useParams } from "react-router";
 import { FaShoppingCart, FaStar } from "react-icons/fa";
 import ProductsData from "../../data/ProductsData.json";
+import useCart from "../../hook/useCart";
 
 const ProductDetails = () => {
   const { id } = useParams();
+
+   const {addToCart} = useCart();
 
   const product = ProductsData.find((item) => item.id === Number(id));
 
@@ -116,7 +119,9 @@ const ProductDetails = () => {
 
           {/* Buttons */}
           <div className="mt-10 flex flex-wrap gap-4">
-            <button className="flex items-center gap-2 rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700">
+            <button
+             onClick={()=> addToCart(product)}
+             className="flex items-center gap-2 rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700">
               <FaShoppingCart />
               Add To Cart
             </button>
