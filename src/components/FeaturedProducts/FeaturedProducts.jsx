@@ -1,5 +1,5 @@
 import ProductCard from "../ProductCard/ProductCard";
-import ProductsData from "../../data/ProductsData.json";
+import ProductsData from "../../Data/ProductsData.json";
 
 const FeaturedProducts = () => {
 

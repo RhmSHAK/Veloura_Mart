@@ -1,7 +1,8 @@
 
 import { useState } from "react";
 import ProductCard from "../../components/ProductCard/ProductCard";
-import ProductsData from "../../data/ProductsData.json";
+import ProductsData from "../../Data/ProductsData.json";
+import Loading from "../../components/Loader/Loading";
 
 const products = ProductsData;
 
@@ -64,6 +65,7 @@ const Products = () => {
                     ))
                 ) : (
                     <div className="col-span-full flex flex-col items-center justify-center py-20">
+                        <Loading></Loading>
                         <h2 className="text-3xl font-bold text-gray-500">
                             No Products Found
                         </h2>

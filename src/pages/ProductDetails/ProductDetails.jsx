@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 import { FaShoppingCart, FaStar } from "react-icons/fa";
-import ProductsData from "../../data/ProductsData.json";
+import ProductsData from "../../Data/ProductsData.json";
 import useCart from "../../hook/useCart";
 
 const ProductDetails = () => {
