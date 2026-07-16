@@ -50,9 +50,6 @@ const ProductDetails = () => {
           <div className="mt-4 flex items-center gap-2">
             <FaStar className="text-yellow-500" />
             <span className="font-semibold">{product.rating}</span>
-            <span className="text-gray-500">
-              ({product.reviews} Reviews)
-            </span>
           </div>
 
           {/* Price */}
