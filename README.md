@@ -6,7 +6,7 @@ Veloura Mart is a modern and responsive e-commerce frontend built with **React**
 
 ## 🚀 Live Demo
 
-🔗 [https://your-vercel-link.vercel.app]
+🔗 https://veloura-mart-theta.vercel.app
 
 ---
 
