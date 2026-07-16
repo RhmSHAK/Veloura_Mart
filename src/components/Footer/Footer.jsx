@@ -11,10 +11,9 @@ const Footer = () => {
     <footer className="bg-blue-200">
       <div className="max-w-7xl mx-auto px-5 py-12">
 
-        {/* Top */}
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
 
-          {/* Brand */}
+         
           <div>
             <h2 className="text-3xl font-bold text-blue-700">
               VeLoUrA MART
@@ -126,7 +125,7 @@ const Footer = () => {
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-blue-300 pt-6 md:flex-row">
 
           <p className="text-center text-sm text-gray-700">
-            © 2026 Veloura. All Rights Reserved.
+            © 2026 VeLoUrA MART. All Rights Reserved.
           </p>
 
           <button
