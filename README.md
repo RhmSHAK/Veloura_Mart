@@ -98,7 +98,3 @@ npm run dev
 - Cart
 - Not Found (404)
 
-
-## 📄 License
-
-This project is created for educational and portfolio purposes.
