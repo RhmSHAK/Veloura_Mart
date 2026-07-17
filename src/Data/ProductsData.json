@@ -1,3 +1,5 @@
+
+
 [
   {
     "id": 1,
@@ -97,8 +99,8 @@
   },
   {
     "id": 9,
-    "name": "Sports Cap",
-    "category": "Accessories",
+    "name": "Classic Sports Cap",
+    "category": "Sports Cap",
     "price": 990,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600",
@@ -130,17 +132,5 @@
     "description": "Comfortable chinos suitable for daily wear.",
     "colors": ["Khaki", "Black"],
     "sizes": ["30", "32", "34", "36"]
-  },
-  {
-    "id": 12,
-    "name": "Formal Blazer",
-    "category": "Blazer",
-    "price": 7490,
-    "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1593032465171-8f0cdd8b1d74?w=600",
-    "inStock": true,
-    "description": "Classic formal blazer with a modern tailored fit.",
-    "colors": ["Navy", "Black"],
-    "sizes": ["M", "L", "XL"]
   }
 ]
