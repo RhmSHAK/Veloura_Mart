@@ -29,7 +29,7 @@ const Navbar = () => {
               {/* logo & brand name */}
                 <Link
                     to="/"
-                    className="btn btn-ghost hover:bg-blue-500 text-xl flex items-center gap-2"
+                    className="btn btn-ghost hover:bg-blue-400 text-xl flex items-center gap-2"
                 >
                     <img
                         src="/logo.png"

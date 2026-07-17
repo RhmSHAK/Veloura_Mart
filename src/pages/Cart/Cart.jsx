@@ -18,6 +18,7 @@ const Cart = () => {
           Shopping Cart
         </h1>
 
+      {/* clear all cart */}
         <button
           onClick={clearCart}
           className="text-red-500 font-semibold"
@@ -26,12 +27,14 @@ const Cart = () => {
         </button>
       </div>
 
+     {/* map cart item */}
       <div className="space-y-5">
         {cart.map((item) => (
           <CartItem key={item.id} item={item} />
         ))}
       </div>
 
+     {/* total amount */}
       <div className="mt-10 border-t pt-6 flex justify-end">
         <div className="text-right">
           <h2 className="text-3xl font-bold mb-4">

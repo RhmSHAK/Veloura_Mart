@@ -57,6 +57,7 @@ const ProductCard = ({ product }) => {
             View Details
           </Link>
 
+        {/* Cart add */}
           <button
             onClick={()=> addToCart(product)}
            className="flex items-center justify-center rounded-xl bg-blue-600 px-5 text-white transition hover:bg-blue-700">

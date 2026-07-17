@@ -114,17 +114,13 @@ const ProductDetails = () => {
             )}
           </div>
 
-          {/* Buttons */}
+          {/* Button */}
           <div className="mt-10 flex flex-wrap gap-4">
             <button
              onClick={()=> addToCart(product)}
              className="flex items-center gap-2 rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700">
               <FaShoppingCart />
               Add To Cart
-            </button>
-
-            <button className="rounded-xl border border-gray-300 px-8 py-4 font-semibold transition hover:bg-gray-100">
-              Buy Now
             </button>
             
           </div>
