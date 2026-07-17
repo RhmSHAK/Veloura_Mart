@@ -99,15 +99,6 @@ npm run dev
 - Not Found (404)
 
 
-## 👨‍💻 Author
-
-**Rakibul Hasan**
-
-- GitHub: https://github.com/RhmSHAK
-- LinkedIn: https://www.linkedin.com/in/your-linkedin-profile
-
----
-
 ## 📄 License
 
 This project is created for educational and portfolio purposes.
